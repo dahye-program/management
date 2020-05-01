@@ -9,6 +9,7 @@
     </columnConstraints>
     <rowConstraints>
         <RowConstraints />
+      <RowConstraints />
     </rowConstraints>
     <children>
       <AnchorPane prefHeight="373.0" prefWidth="391.0">
@@ -17,7 +18,10 @@
             <Button contentDisplay="CENTER" layoutX="221.0" layoutY="280.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="104.0" text="좌석 초기화" textAlignment="CENTER" />
                 <Button contentDisplay="CENTER" layoutX="273.0" layoutY="188.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="104.0" text="회원 삭제" textAlignment="CENTER" />
                 <Button contentDisplay="CENTER" layoutX="135.0" layoutY="188.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="122.0" text="예약자 추가/삭제" textAlignment="CENTER" />
-                <Button contentDisplay="CENTER" layoutX="20.0" layoutY="188.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="104.0" text="공연 추가/삭제" textAlignment="CENTER" />
+                <Button contentDisplay="CENTER" layoutX="20.0" layoutY="188.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="104.0" text="공연 추가/삭제" textAlignment="CENTER">
+               <graphic>
+                  <TextArea prefHeight="200.0" prefWidth="200.0" />
+               </graphic></Button>
          </children>
       </AnchorPane>
     </children>

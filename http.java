@@ -1,4 +1,3 @@
-package com.example.capstone_design;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
